@@ -1,5 +1,6 @@
 import "./banner.js";
 import "./tabs.js";
+import "./app.vue";
 
 // import $ from "jquery";
 // $("#swiper").css("background-color", "green");
