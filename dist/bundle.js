@@ -9,6 +9,37 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/banner.js":
+/*!***********************!*\
+  !*** ./src/banner.js ***!
+  \***********************/
+/***/ (() => {
+
+eval("// 轮播图逻辑\nconsole.log('实现轮播图的业务逻辑');\n\n//# sourceURL=webpack://webpacktask/./src/banner.js?");
+
+/***/ }),
+
+/***/ "./src/main.js":
+/*!*********************!*\
+  !*** ./src/main.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.js */ \"./src/banner.js\");\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_banner_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabs.js */ \"./src/tabs.js\");\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tabs_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/index.less */ \"./src/styles/index.less\");\n/* harmony import */ var _assets_1_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/1.gif */ \"./src/assets/1.gif\");\n/* harmony import */ var _assets_fonts_iconfont_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/fonts/iconfont.css */ \"./src/assets/fonts/iconfont.css\");\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n // import $ from \"jquery\";\n// $(\"#swiper\").css(\"background-color\", \"green\");\n// import \"./styles/index.css\";\n\n // index.js 引用图片\n\n // 引入字体图标文件\n\n\nvar img = document.createElement(\"img\");\nimg.src = _assets_1_gif__WEBPACK_IMPORTED_MODULE_3__;\ndocument.body.appendChild(img);\n\nvar App = /*#__PURE__*/_createClass(function App() {\n  _classCallCheck(this, App);\n});\n\n_defineProperty(App, \"a\", 123);\n\nconsole.log(App.a);\n\nvar fn = function fn() {\n  console.log(111);\n};\n\nfn();\n\n//# sourceURL=webpack://webpacktask/./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/tabs.js":
+/*!*********************!*\
+  !*** ./src/tabs.js ***!
+  \*********************/
+/***/ (() => {
+
+eval("// tab栏切换的逻辑\nconsole.log(\"实现tabs标签页的逻辑\");\n\n//# sourceURL=webpack://webpacktask/./src/tabs.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/styles/index.less":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/styles/index.less ***!
@@ -149,37 +180,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 
 "use strict";
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://webpacktask/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
-/***/ "./src/banner.js":
-/*!***********************!*\
-  !*** ./src/banner.js ***!
-  \***********************/
-/***/ (() => {
-
-eval("// 轮播图逻辑\r\nconsole.log('实现轮播图的业务逻辑')\n\n//# sourceURL=webpack://webpacktask/./src/banner.js?");
-
-/***/ }),
-
-/***/ "./src/main.js":
-/*!*********************!*\
-  !*** ./src/main.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.js */ \"./src/banner.js\");\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_banner_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabs.js */ \"./src/tabs.js\");\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tabs_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_index_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/index.less */ \"./src/styles/index.less\");\n/* harmony import */ var _assets_1_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/1.gif */ \"./src/assets/1.gif\");\n/* harmony import */ var _assets_fonts_iconfont_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/fonts/iconfont.css */ \"./src/assets/fonts/iconfont.css\");\n\r\n\r\n\r\n// import $ from \"jquery\";\r\n// $(\"#swiper\").css(\"background-color\", \"green\");\r\n// import \"./styles/index.css\";\r\n\r\n\r\n// index.js 引用图片\r\n\r\n\r\n// 引入字体图标文件\r\n\r\n\r\nlet img = document.createElement(\"img\");\r\nimg.src = _assets_1_gif__WEBPACK_IMPORTED_MODULE_3__;\r\ndocument.body.appendChild(img);\r\n\n\n//# sourceURL=webpack://webpacktask/./src/main.js?");
-
-/***/ }),
-
-/***/ "./src/tabs.js":
-/*!*********************!*\
-  !*** ./src/tabs.js ***!
-  \*********************/
-/***/ (() => {
-
-eval("// tab栏切换的逻辑\r\nconsole.log(\"实现tabs标签页的逻辑\");\r\n\n\n//# sourceURL=webpack://webpacktask/./src/tabs.js?");
 
 /***/ }),
 

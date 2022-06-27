@@ -15,3 +15,14 @@ import "./assets/fonts/iconfont.css";
 let img = document.createElement("img");
 img.src = imgUrl;
 document.body.appendChild(img);
+
+class App {
+  static a = 123;
+}
+
+console.log(App.a);
+
+const fn = () => {
+  console.log(111);
+};
+fn();
